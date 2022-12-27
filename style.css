@@ -1,0 +1,147 @@
+body {
+	margin: 0 0 0;
+	padding: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+background-color: #8BC6EC;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+	}
+.logo {
+		font-size: 35px;
+		line-height: 70px;
+		font-weight: bold;
+		color: black;
+		padding: 0 20px;
+		text-transform: uppercase;
+	}
+nav{
+		height: 70px;
+	}
+ul{
+		float: right;
+		margin-right: 70px;
+	}
+ul li {
+		display: inline-block;
+		line-height: 40px;
+		margin: 0 2px;
+	}
+ul li a {
+		font-size: 20px;
+		color: black;
+		padding: 10px 17px;
+		border-radius: 3px;
+		text-decoration: none;
+		background-color: none;
+	}
+.isi{
+		display: grid;
+	}
+.awal {
+		display: inline-block;
+		justify-content: center;
+		align-items: center;
+		font-size: 50px;
+		padding-left: 90px;
+		padding-top: 100px
+}
+ h5 {
+	letter-spacing: 5px;
+	font-size: 20PX;;
+	margin-left: 100px;
+}
+.conta {
+	height: 100vh;
+	display: grid;
+}
+.about {
+	float: left;
+	height: 100vh;
+}
+.about h1 {
+	padding-left: 200px;
+}
+.about img {
+	float: left;
+	width: 350px;
+	height: 350px;
+	border-radius: 50%;
+ }
+ .container{
+	background-color: #8BC6EC;
+	background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+	height: 70vh;
+ } 
+ .isi {
+	color: rgb(0, 0, 0);
+	font-size: 30px;
+	padding-top: 80px;
+	padding-left: 10px;
+ }
+ 
+.portofolio {
+	padding: 0;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(8,1fr);
+	margin: 5px 15px;
+	gap:20px;
+	position: relative;
+}
+.pro {
+	width: 100px;
+	display: flex;
+}
+.card {
+	float: left;
+	margin-right: 50px;
+	margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: clamp(20rem, calc(20rem + 2vw), 22rem);
+    overflow: hidden;
+    box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 1em;
+    background: #ece9e6;
+    background: linear-gradient(to right, #ffffff, #ece9e6);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.button-flat {
+    border: 1px solid #801515;        
+    background-color: #000000;        
+    color: #FFFFFF;                  
+    font-size: 16px;                  
+    padding: 0.5em 1em 0.5em 1em;    
+}
+.button-flat:hover {
+    opacity: 0.8;                     
+}
+.button-flat:active {
+    background: #e9e9e9;           
+}
+footer {
+	display: block;
+	align-items: center;
+	justify-items: center;
+    background-color: rgba(27, 27, 27, 1);
+    padding: 5px 0;
+    margin-top: 0px;
+    border-radius: 10px;
+  }
+footer p{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    margin-left: 350px;
+}
